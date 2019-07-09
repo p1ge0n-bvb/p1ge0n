@@ -14,9 +14,9 @@
 
 $ git config --global user.name "ReTuRn0BVB09"  
 
-$ git config --global user.emali "ReTuRn0_BVB@outlook.com"  
+$ git config --global user.emali "return0_bvb@outlook.com"  
 
-$ ssh-keygen -t rsa -C "ReTuRn0_BVB@outlook.com"  
+$ ssh-keygen -t rsa -C "return0_bvb@outlook.com"  
 
 创建ssh密钥之后在github中配置即可  
 
