@@ -7,7 +7,6 @@
 │  ├─0709  
 │  │  │  README.md  
 │  │  │  
-│  │  ├─code  
 │  │  └─img  
 │  └─0710  
 │      │  README.md  
