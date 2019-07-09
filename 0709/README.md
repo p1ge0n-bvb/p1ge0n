@@ -4,9 +4,9 @@
 
 点击图中的new  
 
-![](.\img\1.png)  
+![](./img/1.png)  
 
-![](.\img\2.png)     
+![](./img/2.png)     
 
 在这里填入仓库名，创建仓库  
 
@@ -26,7 +26,7 @@ $ ssh-keygen -t rsa -C "return0_bvb@outlook.com"
 
 $ git init  
 
-### 将本地文件加入到本地git仓库  
+### 将本地文件加入到本地git仓库
 
 $ git add README.md 0708  
 
