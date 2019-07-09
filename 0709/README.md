@@ -47,3 +47,7 @@ $ git remote rm origin
 ### 上传到github
 
 $ git push origin master  
+
+### 用git进行push操作的时候，报fatal: TaskCanceledException encountered.的解决方法
+
+$ git config --global credential.helper manager
