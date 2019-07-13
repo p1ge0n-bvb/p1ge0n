@@ -65,7 +65,7 @@ https://www.anquanke.com/post/id/85129
 ```python
 from pwn import *
 
-n = process('./level4')
+#n = process('./level4')
 n = remote('pwn2.jarvisoj.com',9880)
 elf = ELF('./level4')
 
