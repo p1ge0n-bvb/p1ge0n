@@ -1,10 +1,8 @@
-# write up 0718
-
-## [XMAN]level5
+# [XMAN]level5
 
 从上周六开始看的一道题，很抱歉鸽了几天，我实在是太菜了
 
-### 分析：
+## 分析：
 
 这道题本来难度并不大，文件与level3_x64相同，但是这题的要求是假设``system``函数和``execve``函数被禁用，用``mmap()``和``mprotect()``函数完成
 
@@ -59,7 +57,7 @@ int mprotect(const void *start, size_t len, int prot);
 
 ``mprotect()``有三个参数，这里需要使用到``__libc_csu_init``结尾的``gadget``来进行传参
 
-### 思路：
+## 思路：
 
 首先与level3_x64相同，通过泄露libc地址得到``mprotect()``的地址
 
@@ -77,7 +75,7 @@ int mprotect(const void *start, size_t len, int prot);
 
 还有，这题的shellcode需要调整参数，一开始没有注意到一直出错
 
-### exp:
+## exp:
 
 ```python
 from pwn import *
